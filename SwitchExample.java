@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SwitchExample {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    try (Scanner sc = new Scanner(System.in)) {
         int input = sc.nextInt();
         
 // example  old switch statement
@@ -17,8 +17,9 @@ public class SwitchExample {
             System.out.println("You entered something else.");
             break;
         }
-        
     }
+    
+}
     }
     
 
