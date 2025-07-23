@@ -20,10 +20,16 @@ public class SwitchExample {
 
         // example new switch statement
         // Note: This is a feature introduced in Java 12, so ensure your environment supports
+        // switch (input){
+        //     case 1 -> System.out.println("You entered one.");
+        //     case 2 -> System.out.println("You entered two.");
+        //     default -> System.out.println("You entered something else.");
+        // }
+
         switch (input){
-            case 1 -> System.out.println("You entered one.");
-            case 2 -> System.out.println("You entered two.");
-            default -> System.out.println("You entered something else.");
+            case 1 , 2 , 3 -> System.out.println("Boring");
+            case 4,5,6,7 -> System.out.println("Interesting");
+            default -> System.out.println("You entered something else.");8
         }
     }
     
