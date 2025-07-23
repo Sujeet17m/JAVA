@@ -29,7 +29,7 @@ public class SwitchExample {
         switch (input){
             case 1 , 2 , 3 -> System.out.println("Boring");
             case 4,5,6,7 -> System.out.println("Interesting");
-            default -> System.out.println("You entered something else.");8
+            default -> System.out.println("You entered something else.");
         }
     }
     
