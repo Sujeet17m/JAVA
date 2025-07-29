@@ -54,18 +54,20 @@ import java.util.Scanner;
 
 
 //string as parameters
-public class Functions {
-    public static void main(String[] args) {
+// public class Functions {
+//     public static void main(String[] args) {
 
-        String personalised = message("Sujeet");
-        System.out.println("Personalised message: " + personalised);
-    }
-    static String message(String name){
-        try(Scanner input = new Scanner(System.in)){
-            System.out.println("Enter your name: ");
-            String inputName = input.nextLine();
-            System.out.println("Hello " + inputName + ", welcome to the program!");
-            return inputName; // returning the name
-        }
-    }
-}
+//         String personalised = message("Sujeet");
+//         System.out.println("Personalised message: " + personalised);
+//     }
+//     static String message(String name){
+//         try(Scanner input = new Scanner(System.in)){
+//             System.out.println("Enter your name: ");
+//             String inputName = input.nextLine();
+//             System.out.println("Hello " + inputName + ", welcome to the program!");
+//             return inputName; // returning the name
+//         }
+//     }
+// }
+
+// shadowing in java
