@@ -71,3 +71,21 @@ import java.util.Scanner;
 // }
 
 // shadowing in java
+
+public class Functions {
+    public static void main(String[] args) {
+        //variable arguments
+        int result = sum(1, 2, 3, 4, 5);
+        System.out.println("Sum of numbers: " + result);
+        
+    }
+
+    // Method to sum variable number of integers
+    static int sum(int... numbers) {
+        int total = 0;
+        for (int num : numbers) {
+            total += num;
+        }
+        return total;
+    }
+}
