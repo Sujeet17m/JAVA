@@ -7,7 +7,7 @@ public class Main {
     rnos[1] = 22;
     rnos[2] = 21;
     rnos[3] = 56;
-    rnos[4] = 78;
-    System.out.println(rnos[0]); // output: 23
+    // rnos[4] = 78;
+    System.out.println(rnos[4]); // output: 23
     }
 }
