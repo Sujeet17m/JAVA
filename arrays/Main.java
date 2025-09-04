@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -15,16 +16,24 @@ public class Main {
         System.out.println(rnos[4]); // output: 23
 
         // input using for loop
-        for (int i = 0; i < rnos.length; i++) {
-            System.out.print("Enter number: ");
-            rnos[i] = in.nextInt();
-            System.out.println("Number at index " + i + ": " + rnos[i]);
-            }
+        // for (int i = 0; i < rnos.length; i++) {
+        //     System.out.print("Enter number: ");
+        //     rnos[i] = in.nextInt();
+        //     System.out.println("Number at index " + i + ": " + rnos[i]);
+        //     }
 
-        // for-each loop
-        for (int num : rnos) {
-            System.out.println("Number: " + num);
-            }
+        // // for-each loop
+        // for (int num : rnos) {
+        //     System.out.println("Number: " + num);
+        //     }
+
+        // array of objects
+        String[] name = new String[5];
+        for (int i =0; i< name.length; i++) {
+            System.out.print("Enter name: ");
+            name[i] = in.next();
         }
+        System.out.println(Arrays.toString(name));
+    }
     }
 }
