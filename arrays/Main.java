@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        try(Scanner in = new Scanner(System.in)) {
 
         //datatype[] variable_name = new datatype[size];
         int[] rnos;// declaration of array. rnos is getting defined in the stack
@@ -19,6 +19,7 @@ public class Main {
             System.out.print("Enter number: ");
             rnos[i] = in.nextInt();
             System.out.println("Number at index " + i + ": " + rnos[i]);
+            }
         }
     }
 }
