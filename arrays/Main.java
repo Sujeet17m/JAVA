@@ -20,6 +20,11 @@ public class Main {
             rnos[i] = in.nextInt();
             System.out.println("Number at index " + i + ": " + rnos[i]);
             }
+
+        // for-each loop
+        for (int num : rnos) {
+            System.out.println("Number: " + num);
+            }
         }
     }
 }
