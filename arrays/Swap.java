@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Swap {
+public class Swap{
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50};
         swap(arr, 0, 3);
