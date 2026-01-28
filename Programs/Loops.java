@@ -3,6 +3,7 @@ package Programs;
 import java.util.Scanner;
 
 //loops
+
 public class Loops {
     public static void main(String[] args) {
         for (int num = 1; num <= 5; num++) {
